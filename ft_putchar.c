@@ -6,7 +6,7 @@
 /*   By: maherraz <maherraz@student.42antananari    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/03/02 10:23:30 by maherraz          #+#    #+#             */
-/*   Updated: 2026/03/02 10:36:31 by maherraz         ###   ########.fr       */
+/*   Updated: 2026/03/05 20:28:14 by maherraz         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,6 +14,5 @@
 
 int	ft_putchar(char c)
 {
-	write(1, &c, 1);
-	return (1);
+	return (write(1, &c, 1));
 }
